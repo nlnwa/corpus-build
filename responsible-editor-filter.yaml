@@ -1,0 +1,913 @@
+publications:
+- domain: gat.no
+  responsible-editor: true
+  title: Grimstad Adressetidende
+- domain: lmd.no
+  responsible-editor: true
+  title: Le Monde Diplomatique
+- domain: fjordtilfjord.no
+  responsible-editor: true
+  title: '#fjordtilfjord'
+- domain: 9310.no
+  responsible-editor: true
+  title: 9310.no
+- domain: abcnyheter.no
+  responsible-editor: true
+  title: ABC Nyheter
+- domain: adressa.no
+  responsible-editor: true
+  title: Adresseavisen
+- domain: aftenposten.no
+  responsible-editor: true
+  title: Aftenposten
+- domain: avisenagder.no
+  responsible-editor: true
+  title: Agder
+- domain: agderposten.no
+  responsible-editor: true
+  title: Agderposten
+- domain: groruddalen.no
+  responsible-editor: true
+  title: Akers Avis / Groruddalen
+- domain: amta.no
+  responsible-editor: true
+  title: Akershus Amtstidende
+- domain: altaposten.no
+  responsible-editor: true
+  title: Altaposten
+- domain: alvdalmiv.no
+  responsible-editor: true
+  title: Alvdal midt i væla (2011-)
+- domain: andoyposten.no
+  responsible-editor: true
+  title: Andøyposten
+- domain: retten.no
+  responsible-editor: true
+  title: Arbeidets Rett
+- domain: arbeidsnytt.no
+  responsible-editor: true
+  title: Arbeidsnytt
+- domain: arendalstidende.no
+  responsible-editor: true
+  title: Arendals Tidende
+- domain: budstikka.no
+  responsible-editor: true
+  title: Asker og Bærums Budstikke
+- domain: askoyv.no
+  responsible-editor: true
+  title: Askøyværingen
+- domain: auraavis.no
+  responsible-editor: true
+  title: AuraAvis
+- domain: austagderblad.no
+  responsible-editor: true
+  title: Aust Agder Blad
+- domain: avisahemnes.no
+  responsible-editor: true
+  title: Avisa Hemnes
+- domain: an.no
+  responsible-editor: true
+  title: Avisa Nordland
+- domain: ryfylke.net
+  responsible-editor: true
+  title: Avisa Ryfylke
+- domain: avisa-st.no
+  responsible-editor: true
+  title: Avisa Sør-Trøndelag
+- domain: avvir.no
+  responsible-editor: true
+  title: Ávvir
+- domain: bt.no
+  responsible-editor: true
+  title: Bergens tidende
+- domain: ba.no
+  responsible-editor: true
+  title: Bergensavisen (BA)
+- domain: birkenes-avisa.no
+  responsible-editor: true
+  title: Birkenes Avisa
+- domain: bladet.no
+  responsible-editor: true
+  title: Bladet
+- domain: sunnhordland.com
+  responsible-editor: true
+  title: Bladet Sunnhordaland
+- domain: bladet-tromso.no
+  responsible-editor: true
+  title: Bladet Tromsø
+- domain: blv.no
+  responsible-editor: true
+  title: Bladet Vesterålen
+- domain: bladet.no
+  responsible-editor: true
+  title: Bladet.no
+- domain: bodonu.no
+  responsible-editor: true
+  title: Bodø Nu
+- domain: bodoby.no
+  responsible-editor: true
+  title: BodøBy
+- domain: ba-avis.no
+  responsible-editor: true
+  title: Brønnøysund Avis
+- domain: budstikka.no
+  responsible-editor: true
+  title: Budstikka
+- domain: byavisadrammen.no
+  responsible-editor: true
+  title: Byavisa Drammen
+- domain: byavisamoss.no
+  responsible-editor: true
+  title: Byavisa Moss
+- domain: byavisatonsberg.no
+  responsible-editor: true
+  title: Byavisa Tønsberg
+- domain: bygdanytt.no
+  responsible-editor: true
+  title: Bygdanytt
+- domain: bygdebladet.no
+  responsible-editor: true
+  title: Bygdebladet
+- domain: bygdebladet.com
+  responsible-editor: true
+  title: Bygdebladet
+- domain: bygdeposten.no
+  responsible-editor: true
+  title: Bygdeposten
+- domain: boblad.no
+  responsible-editor: true
+  title: Bø blad
+- domain: bomlo-nytt.no
+  responsible-editor: true
+  title: Bømlo-nytt
+- domain: cw.no
+  responsible-editor: true
+  title: ComputerWorld
+- domain: dagogtid.no
+  responsible-editor: true
+  title: Dag og tid
+- domain: dagbladet.no
+  responsible-editor: true
+  title: Dagbladet
+- domain: dagen.no
+  responsible-editor: true
+  title: Dagen
+- domain: dagensmedisin.no
+  responsible-editor: true
+  title: Dagens medisin
+- domain: dn.no
+  responsible-editor: true
+  title: Dagens næringsliv
+- domain: dagensperspektiv.no
+  responsible-editor: true
+  title: Dagens perspektiv
+- domain: dagsavisen.no
+  responsible-editor: true
+  title: Dagsavisen
+- domain: dalane-tidende.no
+  responsible-editor: true
+  title: DalaneTidende
+- domain: digi.no
+  responsible-editor: true
+  title: Digi.no
+- domain: dinside.no
+  responsible-editor: true
+  title: Din side
+- domain: dinepenger.no
+  responsible-editor: true
+  title: Dine Penger
+- domain: document.no
+  responsible-editor: true
+  title: Document.no
+- domain: drm24.no
+  responsible-editor: true
+  title: Drammen Live24
+- domain: dt.no
+  responsible-editor: true
+  title: Drammens Tidende
+- domain: drangedalsposten.no
+  responsible-editor: true
+  title: Drangedalsposten
+- domain: driva.no
+  responsible-editor: true
+  title: Driva
+- domain: dolen.no
+  responsible-editor: true
+  title: Dølen
+- domain: e24.no
+  responsible-editor: true
+  title: E24
+- domain: eub.no
+  responsible-editor: true
+  title: Eidsvoll Ullensaker Blad
+- domain: eikerbladet.no
+  responsible-editor: true
+  title: Eiker Bladet
+- domain: elevkanalen.no
+  responsible-editor: true
+  title: Elevkanalen
+- domain: enebakkavis.no
+  responsible-editor: true
+  title: Enebakk Avis
+- domain: faktisk.no
+  responsible-editor: true
+  title: Faktisk.no
+- domain: fanaposten.no
+  responsible-editor: true
+  title: Fanaposten
+- domain: farsunds-avis.no
+  responsible-editor: true
+  title: Farsunds Avis
+- domain: finansavisen.no
+  responsible-editor: true
+  title: Finansavisen
+- domain: finnmarkdagblad.no
+  responsible-editor: true
+  title: Finnmark Dagblad
+- domain: finnmarken.no
+  responsible-editor: true
+  title: Finnmarken
+- domain: firda.no
+  responsible-editor: true
+  title: Firda
+- domain: firdatidend.no
+  responsible-editor: true
+  title: Firda Tidend
+- domain: firdaposten.no
+  responsible-editor: true
+  title: Firdaposten
+- domain: fiskaren.no
+  responsible-editor: true
+  title: Fiskaren
+- domain: fiskeribladet.no
+  responsible-editor: true
+  title: Fiskeribladet
+- domain: fitjarposten.no
+  responsible-editor: true
+  title: Fitjarposten
+- domain: fjell-ljom.no
+  responsible-editor: true
+  title: Fjell-Ljom
+- domain: fjordabladet.no
+  responsible-editor: true
+  title: Fjordabladet
+- domain: fjordingen.no
+  responsible-editor: true
+  title: Fjordingen
+- domain: fjt.no
+  responsible-editor: true
+  title: Fjordnes Tidende
+- domain: fjuken.no
+  responsible-editor: true
+  title: Fjuken
+- domain: flatangernytt.no
+  responsible-editor: true
+  title: Flatangernytt.no
+- domain: folldalsmarked.no
+  responsible-editor: true
+  title: Folldals Marked
+- domain: forskersonen.no
+  responsible-editor: true
+  title: Forskersonen
+- domain: forskning.no
+  responsible-editor: true
+  title: Forskning.no
+- domain: fosna-folket.no
+  responsible-editor: true
+  title: Fosna-Folket
+- domain: framtidinord.no
+  responsible-editor: true
+  title: Framtid i Nord
+- domain: f-b.no
+  responsible-editor: true
+  title: Fredriksstad Blad
+- domain: fremover.no
+  responsible-editor: true
+  title: Fremover
+- domain: frifagbevelse.no
+  responsible-editor: true
+  title: Frifagbevegelse
+- domain: friheten.no
+  responsible-editor: true
+  title: Friheten
+- domain: frolendingen.no
+  responsible-editor: true
+  title: Frolendingen
+- domain: frostingen.no
+  responsible-editor: true
+  title: Frostingen
+- domain: fvn.no
+  responsible-editor: true
+  title: Fædrelandsvennen
+- domain: gausdolen.no
+  responsible-editor: true
+  title: Gausdølen
+- domain: gjengangeren.no
+  responsible-editor: true
+  title: Gjengangeren
+- domain: gbnett.no
+  responsible-editor: true
+  title: Gjesdalsbuen
+- domain: gjoviks-blad.no
+  responsible-editor: true
+  title: Gjøviks Blad
+- domain: glomdalen.no
+  responsible-editor: true
+  title: Glåmdalen
+- domain: grannar.no
+  responsible-editor: true
+  title: Grannar
+- domain: grenda.no
+  responsible-editor: true
+  title: Grenda
+- domain: gd.no
+  responsible-editor: true
+  title: Gudbrandsdølen Dagningen
+- domain: hadeland.net
+  responsible-editor: true
+  title: Hadeland
+- domain: ha-halden.no
+  responsible-editor: true
+  title: HaldenArbeiderblad
+- domain: hallingdolen.no
+  responsible-editor: true
+  title: Hallingdølen
+- domain: h-a.no
+  responsible-editor: true
+  title: Hamar Arbeiderblad
+- domain: hamar-dagblad.no
+  responsible-editor: true
+  title: Hamar Dagblad
+- domain: haramsnytt.no
+  responsible-editor: true
+  title: Haramsnytt
+- domain: hardanger-folkeblad.no
+  responsible-editor: true
+  title: Hardanger Folkeblad
+- domain: ht.no
+  responsible-editor: true
+  title: Harstad Tidende
+- domain: h-avis.no
+  responsible-editor: true
+  title: Haugesund Avis
+- domain: hedalen.no
+  responsible-editor: true
+  title: Hedalen.no
+- domain: hblad.no
+  responsible-editor: true
+  title: Helgelands Blad
+- domain: helg.no
+  responsible-editor: true
+  title: Helgelendingen
+- domain: hitra-froya.no
+  responsible-editor: true
+  title: Hitra-Frøya
+- domain: hitra24.no
+  responsible-editor: true
+  title: Hitra24
+- domain: avisa-hordaland.no
+  responsible-editor: true
+  title: Hordaland
+- domain: hf.no
+  responsible-editor: true
+  title: Hordaland folkeblad
+- domain: rights.no
+  responsible-editor: true
+  title: Human Rights Service
+- domain: ifinnmark.no
+  responsible-editor: true
+  title: iFinnmark
+- domain: igjerstad.no
+  responsible-editor: true
+  title: iGjerstad
+- domain: iharstad.no
+  responsible-editor: true
+  title: iHarstad
+- domain: inderoyningen.no
+  responsible-editor: true
+  title: Inderøyningen
+- domain: indre.no
+  responsible-editor: true
+  title: Indre Akershus Blad
+- domain: indre.smaalenene.no
+  responsible-editor: true
+  title: Indre Smaalenenes Avis
+- domain: indre24.no
+  responsible-editor: true
+  title: Indre24
+- domain: innherred.no
+  responsible-editor: true
+  title: Innherred.no
+- domain: inyheter.no
+  responsible-editor: true
+  title: iNyheter
+- domain: isandnessjoen.no
+  responsible-editor: true
+  title: iSandnessjøen
+- domain: isolor.no
+  responsible-editor: true
+  title: iSolør.no
+- domain: istavern.no
+  responsible-editor: true
+  title: iStavern
+- domain: itromso.no
+  responsible-editor: true
+  title: iTromsø
+- domain: jarlsbergavis.no
+  responsible-editor: true
+  title: Jarlsberg
+- domain: journalisten.no
+  responsible-editor: true
+  title: Journalisten
+- domain: jbl.no
+  responsible-editor: true
+  title: Jærbladet
+- domain: kanalen.no
+  responsible-editor: true
+  title: Kanalen
+- domain: kapital.no
+  responsible-editor: true
+  title: Kapital
+- domain: karmsundavis.no
+  responsible-editor: true
+  title: Karmsund avis
+- domain: khrono.no
+  responsible-editor: true
+  title: Khrono
+- domain: klartale.no
+  responsible-editor: true
+  title: Klar tale
+- domain: klassekampen.no
+  responsible-editor: true
+  title: Klassekampen
+- domain: kommunal-rapport.no
+  responsible-editor: true
+  title: Kommunal rapport
+- domain: kv.no
+  responsible-editor: true
+  title: Kragerø Blad Vestmar
+- domain: kulingen.no
+  responsible-editor: true
+  title: Kulingen
+- domain: kvinnheringen.no
+  responsible-editor: true
+  title: Kvinnheringen
+- domain: kyst.no
+  responsible-editor: true
+  title: Kyst.no
+- domain: lierposten.no
+  responsible-editor: true
+  title: Lierposten
+- domain: l-a.no
+  responsible-editor: true
+  title: Lindesnes Avis
+- domain: lister24.no
+  responsible-editor: true
+  title: Lister24
+- domain: lofot-tidende.no
+  responsible-editor: true
+  title: Lofot-Tidende
+- domain: lofotposten.no
+  responsible-editor: true
+  title: Lofotposten
+- domain: lokal-avisa.no
+  responsible-editor: true
+  title: Lokalavisa Trysil-Engerdal
+- domain: geita.no
+  responsible-editor: true
+  title: Lokalavisen Geita
+- domain: lyngdalsavis.no
+  responsible-editor: true
+  title: Lyngdals avis
+- domain: laagendalsposten.no
+  responsible-editor: true
+  title: Laagendalsposten
+- domain: mb.no
+  responsible-editor: true
+  title: Malvikbladet
+- domain: marsteinen.no
+  responsible-editor: true
+  title: Marsteinen
+- domain: mittkongsvinger.no
+  responsible-editor: true
+  title: Mitt Kongsvinger
+- domain: mittlillehammer.no
+  responsible-editor: true
+  title: Mitt Lillehammer
+- domain: morgenbladet.no
+  responsible-editor: true
+  title: Morgenbladet
+- domain: moss-avis.no
+  responsible-editor: true
+  title: Moss Avis
+- domain: mysenposten.no
+  responsible-editor: true
+  title: Mysenposten
+- domain: mre.no
+  responsible-editor: true
+  title: Møre
+- domain: morenytt.no
+  responsible-editor: true
+  title: Mørenytt
+- domain: n247.no
+  responsible-editor: true
+  title: N247.no
+- domain: namdalsavisa.no
+  responsible-editor: true
+  title: Namdalsavisa
+- domain: nationen.no
+  responsible-editor: true
+  title: Nationen
+- domain: nattogdag.no
+  responsible-editor: true
+  title: Natt og dag
+- domain: nettavisen.no
+  responsible-editor: true
+  title: Nettavisen
+- domain: nidaros.no
+  responsible-editor: true
+  title: Nidaros
+- domain: nord24.no
+  responsible-editor: true
+  title: Nord24.no
+- domain: norddalen.no
+  responsible-editor: true
+  title: Norddalen
+- domain: nordhordland.no
+  responsible-editor: true
+  title: Nordhordland
+- domain: nordlys.no
+  responsible-editor: true
+  title: Nordlys
+- domain: nordnorskdebatt.no
+  responsible-editor: true
+  title: Nordnorsk debatt
+- domain: nordrenett.no
+  responsible-editor: true
+  title: Nordre
+- domain: nord-salten.no
+  responsible-editor: true
+  title: NordSalten
+- domain: noblad.no
+  responsible-editor: true
+  title: Nordstrand Blad
+- domain: nvnytt.no
+  responsible-editor: true
+  title: Nordvestnytt
+- domain: idag.no
+  responsible-editor: true
+  title: Norge i dag
+- domain: nrk.no
+  responsible-editor: true
+  title: NRK
+- domain: ntb.no
+  responsible-editor: true
+  title: NTB
+- domain: nytid.no
+  responsible-editor: true
+  title: 'Ny Tid '
+- domain: nye-troms.no
+  responsible-editor: true
+  title: Nye Troms
+- domain: nyttiuka.no
+  responsible-editor: true
+  title: Nytt i uka
+- domain: ofotenstidende.no
+  responsible-editor: true
+  title: Ofotingen
+- domain: opdalingen.no
+  responsible-editor: true
+  title: Opdalingen
+- domain: opp.no
+  responsible-editor: true
+  title: Opp.no
+- domain: oppland-arbeiderblad.no
+  responsible-editor: true
+  title: Oppland Arbeiderblad
+- domain: osogfusa.no
+  responsible-editor: true
+  title: Os og Fusa
+- domain: p4.no
+  responsible-editor: true
+  title: P4
+- domain: panorama.no
+  responsible-editor: true
+  title: Panorama
+- domain: pd.no
+  responsible-editor: true
+  title: Porsgrunn Dagblad
+- domain: r-a.no
+  responsible-editor: true
+  title: Rakkestad avis
+- domain: ranablad.no
+  responsible-editor: true
+  title: Rana Blad
+- domain: ranano.no
+  responsible-editor: true
+  title: Rana no
+- domain: raumnes.no
+  responsible-editor: true
+  title: Raumnes
+- domain: reavisa.no
+  responsible-editor: true
+  title: ReAvisa
+- domain: resett.no
+  responsible-editor: true
+  title: Resett
+- domain: ringblad.no
+  responsible-editor: true
+  title: Ringerikes Blad
+- domain: ringsaker-blad.no
+  responsible-editor: true
+  title: Ringsaker Blad
+- domain: rb.no
+  responsible-editor: true
+  title: Romerikes Blad
+- domain: rbnett.no
+  responsible-editor: true
+  title: Romsdals Budstikke
+- domain: ruijan-kaiku.no
+  responsible-editor: true
+  title: Ruijan Kaiku
+- domain: ryfylke.net
+  responsible-editor: true
+  title: Ryfylke
+- domain: rorosnytt.no
+  responsible-editor: true
+  title: Rørosnytt
+- domain: rha.no
+  responsible-editor: true
+  title: Røyken og Hurums Avis
+- domain: sagat.no
+  responsible-editor: true
+  title: Sagat
+- domain: sageneavis.no
+  responsible-editor: true
+  title: Sagene avis
+- domain: saltenposten.no
+  responsible-editor: true
+  title: Saltenposten
+- domain: samimag.no
+  responsible-editor: true
+  title: Sámi magasiinna
+- domain: samningen.no
+  responsible-editor: true
+  title: Samningen
+- domain: sandeavis.no
+  responsible-editor: true
+  title: Sande Avis
+- domain: sb.no
+  responsible-editor: true
+  title: Sandefjords Blad
+- domain: sandnesposten.no
+  responsible-editor: true
+  title: Sandnesposten
+- domain: sa.no
+  responsible-editor: true
+  title: Sarpsborg Arbeiderblad
+- domain: selbyggen.no
+  responsible-editor: true
+  title: Selbyggen
+- domain: setesdolen.no
+  responsible-editor: true
+  title: Setesdølen
+- domain: siste.no
+  responsible-editor: true
+  title: Siste.no
+- domain: smaalenene.no
+  responsible-editor: true
+  title: Smaalenenes avis
+- domain: snasningen.no
+  responsible-editor: true
+  title: Snåsingen
+- domain: sognavis.no
+  responsible-editor: true
+  title: Sognavis
+- domain: solabladet.no
+  responsible-editor: true
+  title: Solabladet
+- domain: solungavisa.no
+  responsible-editor: true
+  title: Solung Avisa
+- domain: Sortlandsavisa.no
+  responsible-editor: true
+  title: Sortlandsavisa
+- domain: stangeavisa.no
+  responsible-editor: true
+  title: Stangeavisa
+- domain: aftenbladet.no
+  responsible-editor: true
+  title: Stavanger Aftenblad
+- domain: steinkjer-avisa.no
+  responsible-editor: true
+  title: Steinkjer-Avisa
+- domain: s-n.no
+  responsible-editor: true
+  title: Stjørdalsnytt
+- domain: stord24.no
+  responsible-editor: true
+  title: Stord24.no
+- domain: storfjordnytt.no
+  responsible-editor: true
+  title: Storfjordnytt
+- domain: strandbuen.no
+  responsible-editor: true
+  title: Strandbuen
+- domain: strilen.no
+  responsible-editor: true
+  title: Strilen
+- domain: studvest.no
+  responsible-editor: true
+  title: Studvest
+- domain: suldalsposten.no
+  responsible-editor: true
+  title: Suldalsposten
+- domain: sunnmoringen.no
+  responsible-editor: true
+  title: Sunnmøringen
+- domain: smp.no
+  responsible-editor: true
+  title: Sunnmørsposten
+- domain: svalbardposten.no
+  responsible-editor: true
+  title: Svalbardposten
+- domain: svelviksposten.no
+  responsible-editor: true
+  title: Svelviksposten
+- domain: sydvesten.no
+  responsible-editor: true
+  title: Sydvesten
+- domain: sykepleien.no
+  responsible-editor: true
+  title: Sykepleien
+- domain: synste.no
+  responsible-editor: true
+  title: Synste Møre
+- domain: sva.no
+  responsible-editor: true
+  title: Sør-Varanger avis
+- domain: sornett.no
+  responsible-editor: true
+  title: Sørnett
+- domain: tu.no
+  responsible-editor: true
+  title: Teknisk ukeblad
+- domain: ta.no
+  responsible-editor: true
+  title: Telemarksavisa
+- domain: telen.no
+  responsible-editor: true
+  title: Telen
+- domain: tidenskrav.no
+  responsible-editor: true
+  title: Tidens Krav
+- domain: totens-blad.no
+  responsible-editor: true
+  title: Totens Blad
+- domain: trollheimsporten.no
+  responsible-editor: true
+  title: Trollheimsporten
+- domain: folkebladet.no
+  responsible-editor: true
+  title: Troms Folkeblad
+- domain: tromsoby.no
+  responsible-editor: true
+  title: Tromsø By
+- domain: trondheim24.no
+  responsible-editor: true
+  title: Trondheim24.no
+- domain: trondhjemsavisa.no
+  responsible-editor: true
+  title: Trondhjemsavisa
+- domain: t-a.no
+  responsible-editor: true
+  title: Trønderavisa
+- domain: tronderbladet.no
+  responsible-editor: true
+  title: Trønderbladet
+- domain: tv2.no
+  responsible-editor: true
+  title: TV2
+- domain: tvedestrandsposten.no
+  responsible-editor: true
+  title: Tvedestrands Posten
+- domain: tynsetingen.no
+  responsible-editor: true
+  title: Tynsetingen.no
+- domain: tysnesbladet.no
+  responsible-editor: true
+  title: Tysnes Bladet
+- domain: tysver-bygdeblad.no
+  responsible-editor: true
+  title: Tysvær bygdeblad
+- domain: tb.no
+  responsible-editor: true
+  title: Tønsbergs Blad
+- domain: ukeavisenledelse.no
+  responsible-editor: true
+  title: Ukeavisen Ledelse
+- domain: universitas.no
+  responsible-editor: true
+  title: Universitas
+- domain: utrop.no
+  responsible-editor: true
+  title: Utrop
+- domain: vaksdalposten.no
+  responsible-editor: true
+  title: Vaksdalposten
+- domain: avisa-valdres.no
+  responsible-editor: true
+  title: Valdres
+- domain: varden.no
+  responsible-editor: true
+  title: Varden
+- domain: varingen.no
+  responsible-editor: true
+  title: Varingen
+- domain: vefsnno.no
+  responsible-editor: true
+  title: Vefsn no
+- domain: vtb.no
+  responsible-editor: true
+  title: Vest Telemark Blad
+- domain: vest24.no
+  responsible-editor: true
+  title: Vest24.no
+- domain: vestavind-sveio.no
+  responsible-editor: true
+  title: Vestavind
+- domain: vestbyavis.no
+  responsible-editor: true
+  title: Vestby Avis
+- domain: vesteraalensavis.no
+  responsible-editor: true
+  title: Vesterålen Avis
+- domain: vol.no
+  responsible-editor: true
+  title: Vesterålen online
+- domain: vestfoldblad.no
+  responsible-editor: true
+  title: Vestfold Blad
+- domain: vestlandsnytt.no
+  responsible-editor: true
+  title: Vestlandsnytt
+- domain: vestnesavisa.no
+  responsible-editor: true
+  title: Vestnes
+- domain: vestnytt.no
+  responsible-editor: true
+  title: Vestnytt
+- domain: vg.no
+  responsible-editor: true
+  title: VG
+- domain: vikebladet.no
+  responsible-editor: true
+  title: Vikebladet Vestposten
+- domain: vaganavisa.no
+  responsible-editor: true
+  title: Våganavisa
+- domain: vl.no
+  responsible-editor: true
+  title: Vårt land
+- domain: vartoslo.no
+  responsible-editor: true
+  title: VårtOslo
+- domain: ytresogn.no
+  responsible-editor: true
+  title: Ytre Sogn
+- domain: ytringen.no
+  responsible-editor: true
+  title: Ytringen
+- domain: oksnesavisa.no
+  responsible-editor: true
+  title: Øksnes Avisa
+- domain: osterdalsradioen.no
+  responsible-editor: true
+  title: Østerdalsradioen
+- domain: oblad.no
+  responsible-editor: true
+  title: Østlandets Blad
+- domain: op.no
+  responsible-editor: true
+  title: Østlandsposten
+- domain: ostlendingen.no
+  responsible-editor: true
+  title: Østlendingen
+- domain: oyblikk.no
+  responsible-editor: true
+  title: Øyblikk
+- domain: oyene.no
+  responsible-editor: true
+  title: Øyene
+- domain: oyposten.no
+  responsible-editor: true
+  title: Øyposten
+- domain: andalsnes-avis.no
+  responsible-editor: true
+  title: Åndalsnes Avis
+- domain: aasavis.no
+  responsible-editor: true
+  title: Ås Avis
+- domain: aasanetidende.no
+  responsible-editor: true
+  title: Åsane tidende
