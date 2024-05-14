@@ -16,3 +16,16 @@ jobs:
         run: pip install --requirement test-requirements.txt
       - name: Test
         run: pytest
+  lint-with-pylint:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name : Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install --requirement lint-requirements.txt
+      - name: Lint
+        run: pylint **/*.py
