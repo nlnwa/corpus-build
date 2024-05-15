@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: corpus-build
+spec:
+  containers:
+    - name: corpus-build-container
+      image: ghcr.io/nlnwa/corpus-build:main
+      args:
+        - "sh"
+        - "-c"
+        - "trap : TERM INT; (while true; do sleep 1000; done) & wait"
+      envFrom:
+        - secretRef:
+            name: proxy-secrets

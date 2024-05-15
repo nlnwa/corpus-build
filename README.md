@@ -43,3 +43,45 @@ python main.py \
 If the setup of the server is as `main.py` expect, then files will appear in
 `/build/output/` containing the relevant full text for the specified domains
 listed in `responsible-editor-filter.yaml`.
+
+# Kubernetes
+
+## Configuration
+
+Take a look `kubernetes/` for a template of how to deploy it in your cluster.
+
+You need to configure the `namespace` field in `kubernetes/kustomization.yaml`,
+and also the proxy fields in `kubernetes/secrets.yaml` (or delete the entire
+file if you do not need it)
+
+## Deploy
+
+To deploy the pod, run:
+
+```shell
+kubectl apply --kustomize kubernetes/
+```
+
+## Run
+
+When the pod has been created successfully, run:
+
+```shell
+kubectl exec --stdin --tty corpus-build -- bash
+# Inside the container run:
+source /virtual_environment/bin/activate
+python main.py \
+    --filter-yaml-file=responsible-editor-filter.yaml \
+    --hostname=<host-or-ip-of-database-server> \
+    --port=<target-port> \
+    --database=<name-of-database-to-connect> \
+    --user=<database-username> \
+    --password=<plain-text-password-for-user> \
+    --output-dir="/build/output"
+```
+
+To export the output to your local machine, run:
+
+```shell
+kubectl exec corpus-build -- tar cf - /build/output | tar xf - -C .
+```
