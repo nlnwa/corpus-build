@@ -6,8 +6,8 @@ from typing import Generator
 
 from psycopg2 import connect
 from psycopg2.extensions import cursor
-from yaml import SafeLoader, dump, load
 from tqdm import tqdm
+from yaml import SafeLoader, dump, load
 
 
 @dataclass
