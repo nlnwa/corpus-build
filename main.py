@@ -5,6 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Generator
 
+from nb_tokenizer import tokenize
 from psycopg2 import connect
 from psycopg2.extensions import cursor
 from tqdm import tqdm
@@ -183,8 +184,11 @@ def _main() -> None:
                 )
                 for fulltext_metadata in tqdm(fulltext_metadata_collection):
                     fulltext_for_domain_dict[fulltext_metadata.hash] = {
-                        "text": _fetch_fulltext_with_fulltext_hash(
-                            database_cursor, fulltext_metadata.hash
+                        "text": map(
+                            tokenize,
+                            _fetch_fulltext_with_fulltext_hash(
+                                database_cursor, fulltext_metadata.hash
+                            ),
                         ),
                         "timestamp": fulltext_metadata.timestamp,
                         "uri": fulltext_metadata.uri,
