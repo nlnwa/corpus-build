@@ -158,6 +158,7 @@ def _main() -> None:
     responsible_editor_key = "have-responsible-editor"
     domain_key = "domain"
     title_key = "title"
+    geodata_key = "geodata"
     if not args.dhlab_id_status.is_disabled:
         dhlabid_value = args.dhlab_id_status.starting_value
 
@@ -205,6 +206,7 @@ def _main() -> None:
                     title_key: items[title_key],
                     domain_key: items[domain_key],
                     responsible_editor_key: items[responsible_editor_key],
+                    geodata_key: items[geodata_key],
                     "text-entry": fulltext_for_domain_dict,
                 }
 

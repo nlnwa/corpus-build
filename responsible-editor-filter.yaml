@@ -2,912 +2,1824 @@ publications:
 - domain: gat.no
   have-responsible-editor: true
   title: Grimstad Adressetidende
+  geodata:
+    place: Grimstad
+    county: Agder
 - domain: lmd.no
   have-responsible-editor: true
   title: Le Monde Diplomatique
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: fjordtilfjord.no
   have-responsible-editor: true
   title: '#fjordtilfjord'
+  geodata:
+    place: Namdalseid og Statland
+    county: Trøndelag
 - domain: 9310.no
   have-responsible-editor: true
   title: 9310.no
+  geodata:
+    place: Sørreisa
+    county: Troms
 - domain: abcnyheter.no
   have-responsible-editor: true
   title: ABC Nyheter
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: adressa.no
   have-responsible-editor: true
   title: Adresseavisen
+  geodata:
+    place: Trondheim
+    county: Trøndelag
 - domain: aftenposten.no
   have-responsible-editor: true
   title: Aftenposten
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: avisenagder.no
   have-responsible-editor: true
   title: Agder
+  geodata:
+    place: Flekkefjord
+    county: Agder
 - domain: agderposten.no
   have-responsible-editor: true
   title: Agderposten
+  geodata:
+    place: Arendal
+    county: Agder
 - domain: groruddalen.no
   have-responsible-editor: true
   title: Akers Avis / Groruddalen
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: amta.no
   have-responsible-editor: true
   title: Akershus Amtstidende
+  geodata:
+    place: Drøbak
+    county: Akershus
 - domain: altaposten.no
   have-responsible-editor: true
   title: Altaposten
+  geodata:
+    place: Alta
+    county: Finnmark
 - domain: alvdalmiv.no
   have-responsible-editor: true
   title: Alvdal midt i væla (2011-)
+  geodata:
+    place: Alvdal
+    county: Innlandet
 - domain: andoyposten.no
   have-responsible-editor: true
   title: Andøyposten
+  geodata:
+    place: Andøya
+    county: Nordland
 - domain: retten.no
   have-responsible-editor: true
   title: Arbeidets Rett
+  geodata:
+    place: Røros
+    county: Trøndelag
 - domain: arbeidsnytt.no
   have-responsible-editor: true
   title: Arbeidsnytt
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: arendalstidende.no
   have-responsible-editor: true
   title: Arendals Tidende
+  geodata:
+    place: Arendal
+    county: Agder
 - domain: budstikka.no
   have-responsible-editor: true
   title: Asker og Bærums Budstikke
+  geodata:
+    place: Sandvika
+    county: Akershus
 - domain: askoyv.no
   have-responsible-editor: true
   title: Askøyværingen
+  geodata:
+    place: Askøy
+    county: Vestland
 - domain: auraavis.no
   have-responsible-editor: true
   title: AuraAvis
+  geodata:
+    place: Sunndalsøra
+    county: MøreRomsdal
 - domain: austagderblad.no
   have-responsible-editor: true
   title: Aust Agder Blad
+  geodata:
+    place: Risør
+    county: Agder
 - domain: avisahemnes.no
   have-responsible-editor: true
   title: Avisa Hemnes
+  geodata:
+    place: Korgen
+    county: Nordland
 - domain: an.no
   have-responsible-editor: true
   title: Avisa Nordland
+  geodata:
+    place: Bodø
+    county: Nordland
 - domain: ryfylke.net
   have-responsible-editor: true
   title: Avisa Ryfylke
+  geodata:
+    place: Sauda
+    county: Rogaland
 - domain: avisa-st.no
   have-responsible-editor: true
   title: Avisa Sør-Trøndelag
+  geodata:
+    place: Orkanger
+    county: Trøndelag
 - domain: avvir.no
   have-responsible-editor: true
   title: Ávvir
+  geodata:
+    place: Karasjok
+    county: Finnmark
 - domain: bt.no
   have-responsible-editor: true
   title: Bergens tidende
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: ba.no
   have-responsible-editor: true
   title: Bergensavisen (BA)
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: birkenes-avisa.no
   have-responsible-editor: true
   title: Birkenes Avisa
+  geodata:
+    place: Birkenes
+    county: Agder
 - domain: bladet.no
   have-responsible-editor: true
   title: Bladet
+  geodata:
+    place: Stjørdal
+    county: Trøndelag
 - domain: sunnhordland.com
   have-responsible-editor: true
   title: Bladet Sunnhordaland
+  geodata:
+    place: Stord
+    county: Vestland
 - domain: bladet-tromso.no
   have-responsible-editor: true
   title: Bladet Tromsø
+  geodata:
+    place: Tromsø
+    county: Troms
 - domain: blv.no
   have-responsible-editor: true
   title: Bladet Vesterålen
+  geodata:
+    place: Sortland
+    county: Nordland
 - domain: bladet.no
   have-responsible-editor: true
   title: Bladet.no
+  geodata:
+    place: Stjørdal
+    county: Trøndelag
 - domain: bodonu.no
   have-responsible-editor: true
   title: Bodø Nu
+  geodata:
+    place: Bodø
+    county: Nordland
 - domain: bodoby.no
   have-responsible-editor: true
   title: BodøBy
+  geodata:
+    place: Bodø
+    county: Nordland
 - domain: ba-avis.no
   have-responsible-editor: true
   title: Brønnøysund Avis
+  geodata:
+    place: Brønnøysund
+    county: Nordland
 - domain: budstikka.no
   have-responsible-editor: true
   title: Budstikka
+  geodata:
+    place: Søgne
+    county: Agder
 - domain: byavisadrammen.no
   have-responsible-editor: true
   title: Byavisa Drammen
+  geodata:
+    place: Drammen
+    county: Buskerud
 - domain: byavisamoss.no
   have-responsible-editor: true
   title: Byavisa Moss
+  geodata:
+    place: Moss
+    county: Østfold
 - domain: byavisatonsberg.no
   have-responsible-editor: true
   title: Byavisa Tønsberg
+  geodata:
+    place: Tønsberg
+    county: Vestfold
 - domain: bygdanytt.no
   have-responsible-editor: true
   title: Bygdanytt
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: bygdebladet.no
   have-responsible-editor: true
   title: Bygdebladet
+  geodata:
+    place: Randaberg
+    county: Rogaland
 - domain: bygdebladet.com
   have-responsible-editor: true
   title: Bygdebladet
+  geodata:
+    place: Ørskog
+    county: MøreRomsdal
 - domain: bygdeposten.no
   have-responsible-editor: true
   title: Bygdeposten
+  geodata:
+    place: Vikersund
+    county: Buskerud
 - domain: boblad.no
   have-responsible-editor: true
   title: Bø blad
+  geodata:
+    place: Bø i Telemark
+    county: Telemark
 - domain: bomlo-nytt.no
   have-responsible-editor: true
   title: Bømlo-nytt
+  geodata:
+    place: Bømlo
+    county: Vestland
 - domain: cw.no
   have-responsible-editor: true
   title: ComputerWorld
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dagogtid.no
   have-responsible-editor: true
   title: Dag og tid
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dagbladet.no
   have-responsible-editor: true
   title: Dagbladet
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dagen.no
   have-responsible-editor: true
   title: Dagen
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: dagensmedisin.no
   have-responsible-editor: true
   title: Dagens medisin
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dn.no
   have-responsible-editor: true
   title: Dagens næringsliv
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dagensperspektiv.no
   have-responsible-editor: true
   title: Dagens perspektiv
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dagsavisen.no
   have-responsible-editor: true
   title: Dagsavisen
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dalane-tidende.no
   have-responsible-editor: true
   title: DalaneTidende
+  geodata:
+    place: Egersund
+    county: Rogaland
 - domain: digi.no
   have-responsible-editor: true
   title: Digi.no
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dinside.no
   have-responsible-editor: true
   title: Din side
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: dinepenger.no
   have-responsible-editor: true
   title: Dine Penger
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: document.no
   have-responsible-editor: true
   title: Document.no
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: drm24.no
   have-responsible-editor: true
   title: Drammen Live24
+  geodata:
+    place: Drammen
+    county: Akershus
 - domain: dt.no
   have-responsible-editor: true
   title: Drammens Tidende
+  geodata:
+    place: Drammen
+    county: Buskerud
 - domain: drangedalsposten.no
   have-responsible-editor: true
   title: Drangedalsposten
+  geodata:
+    place: Drangedal
+    county: Telemark
 - domain: driva.no
   have-responsible-editor: true
   title: Driva
+  geodata:
+    place: Indre Nordmøre
+    county: MøreRomsdal
 - domain: dolen.no
   have-responsible-editor: true
   title: Dølen
+  geodata:
+    place: Vinstra
+    county: Innlandet
 - domain: e24.no
   have-responsible-editor: true
   title: E24
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: eub.no
   have-responsible-editor: true
   title: Eidsvoll Ullensaker Blad
+  geodata:
+    place: Øvre Romerike
+    county: Akershus
 - domain: eikerbladet.no
   have-responsible-editor: true
   title: Eiker Bladet
+  geodata:
+    place: Hokksund
+    county: Buskerud
 - domain: elevkanalen.no
   have-responsible-editor: true
   title: Elevkanalen
+  geodata:
+    place: Unknown
+    county: Unknown
 - domain: enebakkavis.no
   have-responsible-editor: true
   title: Enebakk Avis
+  geodata:
+    place: Enebakk
+    county: Akershus
 - domain: faktisk.no
   have-responsible-editor: true
   title: Faktisk.no
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: fanaposten.no
   have-responsible-editor: true
   title: Fanaposten
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: farsunds-avis.no
   have-responsible-editor: true
   title: Farsunds Avis
+  geodata:
+    place: Farsund
+    county: Agder
 - domain: finansavisen.no
   have-responsible-editor: true
   title: Finansavisen
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: finnmarkdagblad.no
   have-responsible-editor: true
   title: Finnmark Dagblad
+  geodata:
+    place: Hammerfest
+    county: Finnmark
 - domain: finnmarken.no
   have-responsible-editor: true
   title: Finnmarken
+  geodata:
+    place: Vadsø
+    county: Finnmark
 - domain: firda.no
   have-responsible-editor: true
   title: Firda
+  geodata:
+    place: Førde
+    county: Vestland
 - domain: firdatidend.no
   have-responsible-editor: true
   title: Firda Tidend
+  geodata:
+    place: Sandane
+    county: Vestland
 - domain: firdaposten.no
   have-responsible-editor: true
   title: Firdaposten
+  geodata:
+    place: Florø
+    county: Vestland
 - domain: fiskaren.no
   have-responsible-editor: true
   title: Fiskaren
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: fiskeribladet.no
   have-responsible-editor: true
   title: Fiskeribladet
+  geodata:
+    place: Tromsø
+    county: Troms
 - domain: fitjarposten.no
   have-responsible-editor: true
   title: Fitjarposten
+  geodata:
+    place: Fitjar
+    county: Vestland
 - domain: fjell-ljom.no
   have-responsible-editor: true
   title: Fjell-Ljom
+  geodata:
+    place: Røros
+    county: Trøndelag
 - domain: fjordabladet.no
   have-responsible-editor: true
   title: Fjordabladet
+  geodata:
+    place: Eid
+    county: Vestland
 - domain: fjordingen.no
   have-responsible-editor: true
   title: Fjordingen
+  geodata:
+    place: Stryn
+    county: Vestland
 - domain: fjt.no
   have-responsible-editor: true
   title: Fjordnes Tidende
+  geodata:
+    place: Måløy
+    county: Vestland
 - domain: fjuken.no
   have-responsible-editor: true
   title: Fjuken
+  geodata:
+    place: Skjåk
+    county: Innlandet
 - domain: flatangernytt.no
   have-responsible-editor: true
   title: Flatangernytt.no
+  geodata:
+    place: Flatanger
+    county: Trøndelag
 - domain: folldalsmarked.no
   have-responsible-editor: true
   title: Folldals Marked
+  geodata:
+    place: Folldal
+    county: Innlandet
 - domain: forskersonen.no
   have-responsible-editor: true
   title: Forskersonen
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: forskning.no
   have-responsible-editor: true
   title: Forskning.no
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: fosna-folket.no
   have-responsible-editor: true
   title: Fosna-Folket
+  geodata:
+    place: Fosen
+    county: Trøndelag
 - domain: framtidinord.no
   have-responsible-editor: true
   title: Framtid i Nord
+  geodata:
+    place: Storslett
+    county: Troms
 - domain: f-b.no
   have-responsible-editor: true
   title: Fredriksstad Blad
+  geodata:
+    place: Fredrikstad
+    county: Østfold
 - domain: fremover.no
   have-responsible-editor: true
   title: Fremover
+  geodata:
+    place: Narvik
+    county: Nordland
 - domain: frifagbevelse.no
   have-responsible-editor: true
   title: Frifagbevegelse
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: friheten.no
   have-responsible-editor: true
   title: Friheten
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: frolendingen.no
   have-responsible-editor: true
   title: Frolendingen
+  geodata:
+    place: Froland
+    county: Agder
 - domain: frostingen.no
   have-responsible-editor: true
   title: Frostingen
+  geodata:
+    place: Frosta
+    county: Trøndelag
 - domain: fvn.no
   have-responsible-editor: true
   title: Fædrelandsvennen
+  geodata:
+    place: Kristiansand
+    county: Agder
 - domain: gausdolen.no
   have-responsible-editor: true
   title: Gausdølen
+  geodata:
+    place: Gausdal
+    county: Innlandet
 - domain: gjengangeren.no
   have-responsible-editor: true
   title: Gjengangeren
+  geodata:
+    place: Horten
+    county: Vestfold
 - domain: gbnett.no
   have-responsible-editor: true
   title: Gjesdalsbuen
+  geodata:
+    place: Gjesdal og Figgjo
+    county: Rogaland
 - domain: gjoviks-blad.no
   have-responsible-editor: true
   title: Gjøviks Blad
+  geodata:
+    place: Gjøvik
+    county: Innlandet
 - domain: glomdalen.no
   have-responsible-editor: true
   title: Glåmdalen
+  geodata:
+    place: Kongsvinger
+    county: Innlandet
 - domain: grannar.no
   have-responsible-editor: true
   title: Grannar
+  geodata:
+    place: Etne
+    county: Vestland
 - domain: grenda.no
   have-responsible-editor: true
   title: Grenda
+  geodata:
+    place: Kvinnherad
+    county: Vestland
 - domain: gd.no
   have-responsible-editor: true
   title: Gudbrandsdølen Dagningen
+  geodata:
+    place: Lillehammer
+    county: Innlandet
 - domain: hadeland.net
   have-responsible-editor: true
   title: Hadeland
+  geodata:
+    place: Gran
+    county: Innlandet
 - domain: ha-halden.no
   have-responsible-editor: true
   title: HaldenArbeiderblad
+  geodata:
+    place: Halden
+    county: Østfold
 - domain: hallingdolen.no
   have-responsible-editor: true
   title: Hallingdølen
+  geodata:
+    place: Ål
+    county: Buskerud
 - domain: h-a.no
   have-responsible-editor: true
   title: Hamar Arbeiderblad
+  geodata:
+    place: Hamar
+    county: Innlandet
 - domain: hamar-dagblad.no
   have-responsible-editor: true
   title: Hamar Dagblad
+  geodata:
+    place: Hamar
+    county: Innlandet
 - domain: haramsnytt.no
   have-responsible-editor: true
   title: Haramsnytt
+  geodata:
+    place: Brattvåg
+    county: MøreRomsdal
 - domain: hardanger-folkeblad.no
   have-responsible-editor: true
   title: Hardanger Folkeblad
+  geodata:
+    place: Odda
+    county: Vestland
 - domain: ht.no
   have-responsible-editor: true
   title: Harstad Tidende
+  geodata:
+    place: Harstad
+    county: Troms
 - domain: h-avis.no
   have-responsible-editor: true
   title: Haugesund Avis
+  geodata:
+    place: Haugesund
+    county: Rogaland
 - domain: hedalen.no
   have-responsible-editor: true
   title: Hedalen.no
+  geodata:
+    place: Hedalen
+    county: Innlandet
 - domain: hblad.no
   have-responsible-editor: true
   title: Helgelands Blad
+  geodata:
+    place: Sandnessjøen
+    county: Nordland
 - domain: helg.no
   have-responsible-editor: true
   title: Helgelendingen
+  geodata:
+    place: Mosjøen
+    county: Nordland
 - domain: hitra-froya.no
   have-responsible-editor: true
   title: Hitra-Frøya
+  geodata:
+    place: Hitra
+    county: Trøndelag
 - domain: hitra24.no
   have-responsible-editor: true
   title: Hitra24
+  geodata:
+    place: Hitra
+    county: Trøndelag
 - domain: avisa-hordaland.no
   have-responsible-editor: true
   title: Hordaland
+  geodata:
+    place: Voss
+    county: Vestland
 - domain: hf.no
   have-responsible-editor: true
   title: Hordaland folkeblad
+  geodata:
+    place: Norheimsund
+    county: Vestland
 - domain: rights.no
   have-responsible-editor: true
   title: Human Rights Service
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: ifinnmark.no
   have-responsible-editor: true
   title: iFinnmark
+  geodata:
+    place: Hammerfest, Vadsø
+    county: Finnmark
 - domain: igjerstad.no
   have-responsible-editor: true
   title: iGjerstad
+  geodata:
+    place: Gjerstad
+    county: Agder
 - domain: iharstad.no
   have-responsible-editor: true
   title: iHarstad
+  geodata:
+    place: Harstad
+    county: Troms
 - domain: inderoyningen.no
   have-responsible-editor: true
   title: Inderøyningen
+  geodata:
+    place: Inderøy
+    county: Trøndelag
 - domain: indre.no
   have-responsible-editor: true
   title: Indre Akershus Blad
+  geodata:
+    place: Bjørkelangen
+    county: Akershus
 - domain: indre.smaalenene.no
   have-responsible-editor: true
   title: Indre Smaalenenes Avis
+  geodata:
+    place: Mysen
+    county: Østfold
 - domain: indre24.no
   have-responsible-editor: true
   title: Indre24
+  geodata:
+    place: Mysen
+    county: Østfold
 - domain: innherred.no
   have-responsible-editor: true
   title: Innherred.no
+  geodata:
+    place: Verdal
+    county: Trøndelag
 - domain: inyheter.no
   have-responsible-editor: true
   title: iNyheter
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: isandnessjoen.no
   have-responsible-editor: true
   title: iSandnessjøen
+  geodata:
+    place: Sandnessjøen
+    county: Nordland
 - domain: isolor.no
   have-responsible-editor: true
   title: iSolør.no
+  geodata:
+    place: Flisa
+    county: Innlandet
 - domain: istavern.no
   have-responsible-editor: true
   title: iStavern
+  geodata:
+    place: Stavern
+    county: Vestfold
 - domain: itromso.no
   have-responsible-editor: true
   title: iTromsø
+  geodata:
+    place: Tromsø
+    county: Troms
 - domain: jarlsbergavis.no
   have-responsible-editor: true
   title: Jarlsberg
+  geodata:
+    place: Holmestrand
+    county: Vestfold
 - domain: journalisten.no
   have-responsible-editor: true
   title: Journalisten
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: jbl.no
   have-responsible-editor: true
   title: Jærbladet
+  geodata:
+    place: Bryne
+    county: Rogaland
 - domain: kanalen.no
   have-responsible-editor: true
   title: Kanalen
+  geodata:
+    place: Ulefoss
+    county: Telemark
 - domain: kapital.no
   have-responsible-editor: true
   title: Kapital
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: karmsundavis.no
   have-responsible-editor: true
   title: Karmsund avis
+  geodata:
+    place: Haugesund
+    county: Rogaland
 - domain: khrono.no
   have-responsible-editor: true
   title: Khrono
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: klartale.no
   have-responsible-editor: true
   title: Klar tale
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: klassekampen.no
   have-responsible-editor: true
   title: Klassekampen
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: kommunal-rapport.no
   have-responsible-editor: true
   title: Kommunal rapport
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: kv.no
   have-responsible-editor: true
   title: Kragerø Blad Vestmar
+  geodata:
+    place: Kragerø
+    county: Telemark
 - domain: kulingen.no
   have-responsible-editor: true
   title: Kulingen
+  geodata:
+    place: Meløy
+    county: Nordland
 - domain: kvinnheringen.no
   have-responsible-editor: true
   title: Kvinnheringen
+  geodata:
+    place: Husnes
+    county: Vestland
 - domain: kyst.no
   have-responsible-editor: true
   title: Kyst.no
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: lierposten.no
   have-responsible-editor: true
   title: Lierposten
+  geodata:
+    place: Lier
+    county: Buskerud
 - domain: l-a.no
   have-responsible-editor: true
   title: Lindesnes Avis
+  geodata:
+    place: Mandal
+    county: Agder
 - domain: lister24.no
   have-responsible-editor: true
   title: Lister24
+  geodata:
+    place: Farsund
+    county: Agder
 - domain: lofot-tidende.no
   have-responsible-editor: true
   title: Lofot-Tidende
+  geodata:
+    place: Leknes
+    county: Nordland
 - domain: lofotposten.no
   have-responsible-editor: true
   title: Lofotposten
+  geodata:
+    place: Lofoten
+    county: Nordland
 - domain: lokal-avisa.no
   have-responsible-editor: true
   title: Lokalavisa Trysil-Engerdal
+  geodata:
+    place: Trysil
+    county: Akershus
 - domain: geita.no
   have-responsible-editor: true
   title: Lokalavisen Geita
+  geodata:
+    place: Tromøy, Arendal
+    county: Agder
 - domain: lyngdalsavis.no
   have-responsible-editor: true
   title: Lyngdals avis
+  geodata:
+    place: Lyngdal
+    county: Agder
 - domain: laagendalsposten.no
   have-responsible-editor: true
   title: Laagendalsposten
+  geodata:
+    place: Kongsberg
+    county: Buskerud
 - domain: mb.no
   have-responsible-editor: true
   title: Malvikbladet
+  geodata:
+    place: Malvik
+    county: Trøndelag
 - domain: marsteinen.no
   have-responsible-editor: true
   title: Marsteinen
+  geodata:
+    place: Austevoll
+    county: Vestland
 - domain: mittkongsvinger.no
   have-responsible-editor: true
   title: Mitt Kongsvinger
+  geodata:
+    place: Kongsvinger
+    county: Innlandet
 - domain: mittlillehammer.no
   have-responsible-editor: true
   title: Mitt Lillehammer
+  geodata:
+    place: Lillehammer
+    county: Innlandet
 - domain: morgenbladet.no
   have-responsible-editor: true
   title: Morgenbladet
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: moss-avis.no
   have-responsible-editor: true
   title: Moss Avis
+  geodata:
+    place: Moss
+    county: Østfold
 - domain: mysenposten.no
   have-responsible-editor: true
   title: Mysenposten
+  geodata:
+    place: Mysen
+    county: Østfold
 - domain: mre.no
   have-responsible-editor: true
   title: Møre
+  geodata:
+    place: Volda
+    county: MøreRomsdal
 - domain: morenytt.no
   have-responsible-editor: true
   title: Mørenytt
+  geodata:
+    place: Ørsta
+    county: MøreRomsdal
 - domain: n247.no
   have-responsible-editor: true
   title: N247.no
+  geodata:
+    place: Søgne
+    county: Agder
 - domain: namdalsavisa.no
   have-responsible-editor: true
   title: Namdalsavisa
+  geodata:
+    place: Namsos
+    county: Trøndelag
 - domain: nationen.no
   have-responsible-editor: true
   title: Nationen
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: nattogdag.no
   have-responsible-editor: true
   title: Natt og dag
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: nettavisen.no
   have-responsible-editor: true
   title: Nettavisen
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: nidaros.no
   have-responsible-editor: true
   title: Nidaros
+  geodata:
+    place: Trondheim
+    county: Trøndelag
 - domain: nord24.no
   have-responsible-editor: true
   title: Nord24.no
+  geodata:
+    place: Tromsø
+    county: Troms
 - domain: norddalen.no
   have-responsible-editor: true
   title: Norddalen
+  geodata:
+    place: Otta
+    county: Innlandet
 - domain: nordhordland.no
   have-responsible-editor: true
   title: Nordhordland
+  geodata:
+    place: Knarvik
+    county: Vestland
 - domain: nordlys.no
   have-responsible-editor: true
   title: Nordlys
+  geodata:
+    place: Tromsø
+    county: Troms
 - domain: nordnorskdebatt.no
   have-responsible-editor: true
   title: Nordnorsk debatt
+  geodata:
+    place: Tromsø
+    county: Troms
 - domain: nordrenett.no
   have-responsible-editor: true
   title: Nordre
+  geodata:
+    place: Brattvåg
+    county: MøreRomsdal
 - domain: nord-salten.no
   have-responsible-editor: true
   title: NordSalten
+  geodata:
+    place: Steigen, Tysfjord og Hamarøy
+    county: Nordland
 - domain: noblad.no
   have-responsible-editor: true
   title: Nordstrand Blad
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: nvnytt.no
   have-responsible-editor: true
   title: Nordvestnytt
+  geodata:
+    place: Smøla og Aure
+    county: MøreRomsdal
 - domain: idag.no
   have-responsible-editor: true
   title: Norge i dag
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: nrk.no
   have-responsible-editor: true
   title: NRK
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: ntb.no
   have-responsible-editor: true
   title: NTB
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: nytid.no
   have-responsible-editor: true
   title: 'Ny Tid '
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: nye-troms.no
   have-responsible-editor: true
   title: Nye Troms
+  geodata:
+    place: Moen
+    county: Troms
 - domain: nyttiuka.no
   have-responsible-editor: true
   title: Nytt i uka
+  geodata:
+    place: Ålesund
+    county: MøreRomsdal
 - domain: ofotenstidende.no
   have-responsible-editor: true
   title: Ofotingen
+  geodata:
+    place: Narvik
+    county: Nordland
 - domain: opdalingen.no
   have-responsible-editor: true
   title: Opdalingen
+  geodata:
+    place: Oppdal
+    county: Trøndelag
 - domain: opp.no
   have-responsible-editor: true
   title: Opp.no
+  geodata:
+    place: Oppdal
+    county: Trøndelag
 - domain: oppland-arbeiderblad.no
   have-responsible-editor: true
   title: Oppland Arbeiderblad
+  geodata:
+    place: Gjøvik
+    county: Innlandet
 - domain: osogfusa.no
   have-responsible-editor: true
   title: Os og Fusa
+  geodata:
+    place: Os
+    county: Vestland
 - domain: p4.no
   have-responsible-editor: true
   title: P4
+  geodata:
+    place: Lillehammer
+    county: Innlandet
 - domain: panorama.no
   have-responsible-editor: true
   title: Panorama
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: pd.no
   have-responsible-editor: true
   title: Porsgrunn Dagblad
+  geodata:
+    place: Porsgrunn
+    county: Telemark
 - domain: r-a.no
   have-responsible-editor: true
   title: Rakkestad avis
+  geodata:
+    place: Rakkestad
+    county: Østfold
 - domain: ranablad.no
   have-responsible-editor: true
   title: Rana Blad
+  geodata:
+    place: Mo i Rana
+    county: Nordland
 - domain: ranano.no
   have-responsible-editor: true
   title: Rana no
+  geodata:
+    place: Mo i Rana
+    county: Nordland
 - domain: raumnes.no
   have-responsible-editor: true
   title: Raumnes
+  geodata:
+    place: Årnes
+    county: Akershus
 - domain: reavisa.no
   have-responsible-editor: true
   title: ReAvisa
+  geodata:
+    place: Re
+    county: Vestfold
 - domain: resett.no
   have-responsible-editor: true
   title: Resett
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: ringblad.no
   have-responsible-editor: true
   title: Ringerikes Blad
+  geodata:
+    place: Hønefoss
+    county: Buskerud
 - domain: ringsaker-blad.no
   have-responsible-editor: true
   title: Ringsaker Blad
+  geodata:
+    place: Ringsaker
+    county: Innlandet
 - domain: rb.no
   have-responsible-editor: true
   title: Romerikes Blad
+  geodata:
+    place: Lillestrøm
+    county: Akershus
 - domain: rbnett.no
   have-responsible-editor: true
   title: Romsdals Budstikke
+  geodata:
+    place: Molde
+    county: MøreRomsdal
 - domain: ruijan-kaiku.no
   have-responsible-editor: true
   title: Ruijan Kaiku
+  geodata:
+    place: Tromsø
+    county: Troms
 - domain: ryfylke.net
   have-responsible-editor: true
   title: Ryfylke
+  geodata:
+    place: Sauda
+    county: Rogaland
 - domain: rorosnytt.no
   have-responsible-editor: true
   title: Rørosnytt
+  geodata:
+    place: Røros
+    county: Trøndelag
 - domain: rha.no
   have-responsible-editor: true
   title: Røyken og Hurums Avis
+  geodata:
+    place: Røyken
+    county: Buskerud
 - domain: sagat.no
   have-responsible-editor: true
   title: Sagat
+  geodata:
+    place: Lakselv
+    county: Finnmark
 - domain: sageneavis.no
   have-responsible-editor: true
   title: Sagene avis
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: saltenposten.no
   have-responsible-editor: true
   title: Saltenposten
+  geodata:
+    place: Fauske
+    county: Nordland
 - domain: samimag.no
   have-responsible-editor: true
   title: Sámi magasiinna
+  geodata:
+    place: Karasjok
+    county: Finnmark
 - domain: samningen.no
   have-responsible-editor: true
   title: Samningen
+  geodata:
+    place: Samnanger
+    county: Vestland
 - domain: sandeavis.no
   have-responsible-editor: true
   title: Sande Avis
+  geodata:
+    place: Sande i Vestfold
+    county: Vestfold
 - domain: sb.no
   have-responsible-editor: true
   title: Sandefjords Blad
+  geodata:
+    place: Sandefjord
+    county: Vestfold
 - domain: sandnesposten.no
   have-responsible-editor: true
   title: Sandnesposten
+  geodata:
+    place: Sandnes
+    county: Rogaland
 - domain: sa.no
   have-responsible-editor: true
   title: Sarpsborg Arbeiderblad
+  geodata:
+    place: Sarpsborg
+    county: Østfold
 - domain: selbyggen.no
   have-responsible-editor: true
   title: Selbyggen
+  geodata:
+    place: Selbu
+    county: Trøndelag
 - domain: setesdolen.no
   have-responsible-editor: true
   title: Setesdølen
+  geodata:
+    place: Bygland
+    county: Agder
 - domain: siste.no
   have-responsible-editor: true
   title: Siste.no
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: smaalenene.no
   have-responsible-editor: true
   title: Smaalenenes avis
+  geodata:
+    place: Askim
+    county: Østfold
 - domain: snasningen.no
   have-responsible-editor: true
   title: Snåsingen
+  geodata:
+    place: Snåsa
+    county: Trøndelag
 - domain: sognavis.no
   have-responsible-editor: true
   title: Sognavis
+  geodata:
+    place: Leikanger
+    county: Vestland
 - domain: solabladet.no
   have-responsible-editor: true
   title: Solabladet
+  geodata:
+    place: Sola
+    county: Rogaland
 - domain: solungavisa.no
   have-responsible-editor: true
   title: Solung Avisa
+  geodata:
+    place: Flisa
+    county: Innlandet
 - domain: Sortlandsavisa.no
   have-responsible-editor: true
   title: Sortlandsavisa
+  geodata:
+    place: Sortland
+    county: Nordland
 - domain: stangeavisa.no
   have-responsible-editor: true
   title: Stangeavisa
+  geodata:
+    place: Stange
+    county: Innlandet
 - domain: aftenbladet.no
   have-responsible-editor: true
   title: Stavanger Aftenblad
+  geodata:
+    place: Stavanger
+    county: Rogaland
 - domain: steinkjer-avisa.no
   have-responsible-editor: true
   title: Steinkjer-Avisa
+  geodata:
+    place: Steinkjer
+    county: Trøndelag
 - domain: s-n.no
   have-responsible-editor: true
   title: Stjørdalsnytt
+  geodata:
+    place: Stjørdal
+    county: Trøndelag
 - domain: stord24.no
   have-responsible-editor: true
   title: Stord24.no
+  geodata:
+    place: Stord
+    county: Vestland
 - domain: storfjordnytt.no
   have-responsible-editor: true
   title: Storfjordnytt
+  geodata:
+    place: Valldal
+    county: MøreRomsdal
 - domain: strandbuen.no
   have-responsible-editor: true
   title: Strandbuen
+  geodata:
+    place: Jørpeland
+    county: Rogaland
 - domain: strilen.no
   have-responsible-editor: true
   title: Strilen
+  geodata:
+    place: Knarvik
+    county: Vestland
 - domain: studvest.no
   have-responsible-editor: true
   title: Studvest
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: suldalsposten.no
   have-responsible-editor: true
   title: Suldalsposten
+  geodata:
+    place: Suldal
+    county: Rogaland
 - domain: sunnmoringen.no
   have-responsible-editor: true
   title: Sunnmøringen
+  geodata:
+    place: Stranda
+    county: MøreRomsdal
 - domain: smp.no
   have-responsible-editor: true
   title: Sunnmørsposten
+  geodata:
+    place: Ålesund
+    county: MøreRomsdal
 - domain: svalbardposten.no
   have-responsible-editor: true
   title: Svalbardposten
+  geodata:
+    place: Longyearbyen
+    county: Svalbard
 - domain: svelviksposten.no
   have-responsible-editor: true
   title: Svelviksposten
+  geodata:
+    place: Svelvik
+    county: Buskerud
 - domain: sydvesten.no
   have-responsible-editor: true
   title: Sydvesten
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: sykepleien.no
   have-responsible-editor: true
   title: Sykepleien
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: synste.no
   have-responsible-editor: true
   title: Synste Møre
+  geodata:
+    place: Fiskå
+    county: MøreRomsdal
 - domain: sva.no
   have-responsible-editor: true
   title: Sør-Varanger avis
+  geodata:
+    place: Kirkenes
+    county: Finnmark
 - domain: sornett.no
   have-responsible-editor: true
   title: Sørnett
+  geodata:
+    place: Kristiansand
+    county: Agder
 - domain: tu.no
   have-responsible-editor: true
   title: Teknisk ukeblad
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: ta.no
   have-responsible-editor: true
   title: Telemarksavisa
+  geodata:
+    place: Skien
+    county: Telemark
 - domain: telen.no
   have-responsible-editor: true
   title: Telen
+  geodata:
+    place: Notodden
+    county: Telemark
 - domain: tidenskrav.no
   have-responsible-editor: true
   title: Tidens Krav
+  geodata:
+    place: Kristiansund
+    county: MøreRomsdal
 - domain: totens-blad.no
   have-responsible-editor: true
   title: Totens Blad
+  geodata:
+    place: Toten
+    county: Innlandet
 - domain: trollheimsporten.no
   have-responsible-editor: true
   title: Trollheimsporten
+  geodata:
+    place: Surnadal og Rindal
+    county: MøreRomsdal
 - domain: folkebladet.no
   have-responsible-editor: true
   title: Troms Folkeblad
+  geodata:
+    place: Finnsnes
+    county: Troms
 - domain: tromsoby.no
   have-responsible-editor: true
   title: Tromsø By
+  geodata:
+    place: Tromsø
+    county: Troms
 - domain: trondheim24.no
   have-responsible-editor: true
   title: Trondheim24.no
+  geodata:
+    place: Trondheim
+    county: Trøndelag
 - domain: trondhjemsavisa.no
   have-responsible-editor: true
   title: Trondhjemsavisa
+  geodata:
+    place: Trondheim
+    county: Trøndelag
 - domain: t-a.no
   have-responsible-editor: true
   title: Trønderavisa
+  geodata:
+    place: Steinkjer
+    county: Trøndelag
 - domain: tronderbladet.no
   have-responsible-editor: true
   title: Trønderbladet
+  geodata:
+    place: Melhus
+    county: Trøndelag
 - domain: tv2.no
   have-responsible-editor: true
   title: TV2
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: tvedestrandsposten.no
   have-responsible-editor: true
   title: Tvedestrands Posten
+  geodata:
+    place: Tvedestrand
+    county: Agder
 - domain: tynsetingen.no
   have-responsible-editor: true
   title: Tynsetingen.no
+  geodata:
+    place: Tynset
+    county: Innlandet
 - domain: tysnesbladet.no
   have-responsible-editor: true
   title: Tysnes Bladet
+  geodata:
+    place: Tysnes
+    county: Vestland
 - domain: tysver-bygdeblad.no
   have-responsible-editor: true
   title: Tysvær bygdeblad
+  geodata:
+    place: Aksdal
+    county: Rogaland
 - domain: tb.no
   have-responsible-editor: true
   title: Tønsbergs Blad
+  geodata:
+    place: Tønsberg
+    county: Vestfold
 - domain: ukeavisenledelse.no
   have-responsible-editor: true
   title: Ukeavisen Ledelse
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: universitas.no
   have-responsible-editor: true
   title: Universitas
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: utrop.no
   have-responsible-editor: true
   title: Utrop
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: vaksdalposten.no
   have-responsible-editor: true
   title: Vaksdalposten
+  geodata:
+    place: Dale
+    county: Vestland
 - domain: avisa-valdres.no
   have-responsible-editor: true
   title: Valdres
+  geodata:
+    place: Fagernes
+    county: Innlandet
 - domain: varden.no
   have-responsible-editor: true
   title: Varden
+  geodata:
+    place: Telemark
+    county: Telemark
 - domain: varingen.no
   have-responsible-editor: true
   title: Varingen
+  geodata:
+    place: Nittedal
+    county: Akershus
 - domain: vefsnno.no
   have-responsible-editor: true
   title: Vefsn no
+  geodata:
+    place: Mosjøen
+    county: Nordland
 - domain: vtb.no
   have-responsible-editor: true
   title: Vest Telemark Blad
+  geodata:
+    place: Kviteseid
+    county: Telemark
 - domain: vest24.no
   have-responsible-editor: true
   title: Vest24.no
+  geodata:
+    place: Bergen
+    county: Vestland
 - domain: vestavind-sveio.no
   have-responsible-editor: true
   title: Vestavind
+  geodata:
+    place: Sveio
+    county: Vestland
 - domain: vestbyavis.no
   have-responsible-editor: true
   title: Vestby Avis
+  geodata:
+    place: Vestby
+    county: Akershus
 - domain: vesteraalensavis.no
   have-responsible-editor: true
   title: Vesterålen Avis
+  geodata:
+    place: Sortland
+    county: Nordland
 - domain: vol.no
   have-responsible-editor: true
   title: Vesterålen online
+  geodata:
+    place: Sortland
+    county: Nordland
 - domain: vestfoldblad.no
   have-responsible-editor: true
   title: Vestfold Blad
+  geodata:
+    place: Sandefjord
+    county: Vestfold
 - domain: vestlandsnytt.no
   have-responsible-editor: true
   title: Vestlandsnytt
+  geodata:
+    place: Fosnavåg
+    county: MøreRomsdal
 - domain: vestnesavisa.no
   have-responsible-editor: true
   title: Vestnes
+  geodata:
+    place: Vestnes
+    county: MøreRomsdal
 - domain: vestnytt.no
   have-responsible-editor: true
   title: Vestnytt
+  geodata:
+    place: Straume
+    county: Vestland
 - domain: vg.no
   have-responsible-editor: true
   title: VG
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: vikebladet.no
   have-responsible-editor: true
   title: Vikebladet Vestposten
+  geodata:
+    place: Ulsteinvik
+    county: MøreRomsdal
 - domain: vaganavisa.no
   have-responsible-editor: true
   title: Våganavisa
+  geodata:
+    place: Svolvær
+    county: Nordland
 - domain: vl.no
   have-responsible-editor: true
   title: Vårt land
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: vartoslo.no
   have-responsible-editor: true
   title: VårtOslo
+  geodata:
+    place: Oslo
+    county: Oslo
 - domain: ytresogn.no
   have-responsible-editor: true
   title: Ytre Sogn
+  geodata:
+    place: Høyanger
+    county: Vestland
 - domain: ytringen.no
   have-responsible-editor: true
   title: Ytringen
+  geodata:
+    place: Kolvereid
+    county: Trøndelag
 - domain: oksnesavisa.no
   have-responsible-editor: true
   title: Øksnes Avisa
+  geodata:
+    place: Øksnes
+    county: Nordland
 - domain: osterdalsradioen.no
   have-responsible-editor: true
   title: Østerdalsradioen
+  geodata:
+    place: Flisa
+    county: Innlandet
 - domain: oblad.no
   have-responsible-editor: true
   title: Østlandets Blad
+  geodata:
+    place: Follo
+    county: Akershus
 - domain: op.no
   have-responsible-editor: true
   title: Østlandsposten
+  geodata:
+    place: Larvik
+    county: Vestfold
 - domain: ostlendingen.no
   have-responsible-editor: true
   title: Østlendingen
+  geodata:
+    place: Elverum
+    county: Innlandet
 - domain: oyblikk.no
   have-responsible-editor: true
   title: Øyblikk
+  geodata:
+    place: Giske
+    county: MøreRomsdal
 - domain: oyene.no
   have-responsible-editor: true
   title: Øyene
+  geodata:
+    place: Færder
+    county: Vestfold
 - domain: oyposten.no
   have-responsible-editor: true
   title: Øyposten
+  geodata:
+    place: Finnøy
+    county: Rogaland
 - domain: andalsnes-avis.no
   have-responsible-editor: true
   title: Åndalsnes Avis
+  geodata:
+    place: Åndalsnes
+    county: MøreRomsdal
 - domain: aasavis.no
   have-responsible-editor: true
   title: Ås Avis
+  geodata:
+    place: Ås
+    county: Akershus
 - domain: aasanetidende.no
   have-responsible-editor: true
   title: Åsane tidende
+  geodata:
+    place: Bergen
+    county: Vestland
