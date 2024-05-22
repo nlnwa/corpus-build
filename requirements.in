@@ -1,3 +1,4 @@
 psycopg2-binary # Should not be used in production, see https://www.psycopg.org/docs/install.html#psycopg-vs-psycopg-binary
 pyyaml
 tqdm
+nb_tokenizer

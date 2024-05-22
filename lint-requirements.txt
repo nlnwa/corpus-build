@@ -12,6 +12,8 @@ isort==5.13.2
     # via pylint
 mccabe==0.7.0
     # via pylint
+nb-tokenizer==0.1.0
+    # via -r requirements.txt
 platformdirs==4.2.1
     # via pylint
 psycopg2-binary==2.9.9
