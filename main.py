@@ -6,19 +6,24 @@ from typing import Generator
 
 from psycopg2 import connect
 from psycopg2.extensions import cursor
-from yaml import SafeLoader, dump, load
 from tqdm import tqdm
+from yaml import SafeLoader, dump, load
+
+
+@dataclass
+class _DatabaseArgs:
+    hostname: str
+    port: int
+    database: str
+    user: str
+    password: str
 
 
 @dataclass
 class Args:
     filter_yaml_file: Path
     output_dir: Path
-    hostname: str
-    port: int
-    database: str
-    user: str
-    password: str
+    database: _DatabaseArgs
 
 
 def _args() -> Args:
@@ -50,11 +55,13 @@ def _args() -> Args:
     return Args(
         filter_yaml_file=args.filter_yaml_file,
         output_dir=args.output_dir,
-        hostname=args.hostname,
-        port=args.port,
-        database=args.database,
-        user=args.user,
-        password=args.password,
+        database=_DatabaseArgs(
+            hostname=args.hostname,
+            port=args.port,
+            database=args.database,
+            user=args.user,
+            password=args.password,
+        ),
     )
 
 
@@ -117,11 +124,11 @@ def _main() -> None:
     title_key = "title"
 
     with _connect_to_database(
-        hostname=args.hostname,
-        port=args.port,
-        database=args.database,
-        user=args.user,
-        password=args.password,
+        hostname=args.database.hostname,
+        port=args.database.port,
+        database=args.database.database,
+        user=args.database.user,
+        password=args.database.password,
     ) as database_cursor:
         with open(args.filter_yaml_file, "r", encoding="utf-8") as file_pointer:
             filter_dict = load(file_pointer, Loader=SafeLoader)
