@@ -184,11 +184,13 @@ def _main() -> None:
                 )
                 for fulltext_metadata in tqdm(fulltext_metadata_collection):
                     fulltext_for_domain_dict[fulltext_metadata.hash] = {
-                        "text": map(
-                            tokenize,
-                            _fetch_fulltext_with_fulltext_hash(
-                                database_cursor, fulltext_metadata.hash
-                            ),
+                        "text": list(
+                            map(
+                                tokenize,
+                                _fetch_fulltext_with_fulltext_hash(
+                                    database_cursor, fulltext_metadata.hash
+                                ),
+                            )
                         ),
                         "timestamp": fulltext_metadata.timestamp,
                         "uri": fulltext_metadata.uri,
