@@ -42,6 +42,13 @@ class Args:
     database: _DatabaseArgs
 
 
+@dataclass
+class _TokenParseResult:
+    token: str
+    sequence_number: int
+    paragraph_number: int
+
+
 def _args() -> Args:
     parser = ArgumentParser()
     parser.add_argument(
@@ -151,6 +158,25 @@ def _fetch_fulltext_hash_and_metadata(
     return filtered_results
 
 
+def _parse_tokens(fulltext: str) -> list[_TokenParseResult]:
+    result = []
+    paragraphs = fulltext.split("\n")
+    sequence_number = 0
+    for paragraph_number, paragraph in enumerate(paragraphs):
+        tokens = tokenize(paragraph)
+        for token in tokens:
+            result.append(
+                _TokenParseResult(
+                    token=token,
+                    sequence_number=sequence_number,
+                    paragraph_number=paragraph_number,
+                )
+            )
+            sequence_number += 1
+
+    return result
+
+
 def _main() -> None:
     args = _args()
 
@@ -178,36 +204,43 @@ def _main() -> None:
                 fulltext_metadata_collection = _fetch_fulltext_hash_and_metadata(
                     database_cursor, items[domain_key]
                 )
-                fulltext_for_domain_dict = {}
+
                 print(
                     f"Found {len(fulltext_metadata_collection)} fulltext hashes",
                     flush=True,
                 )
+
+                all_text_dict = {}
+
                 for fulltext_metadata in tqdm(fulltext_metadata_collection):
-                    fulltext_for_domain_dict[fulltext_metadata.hash] = {
-                        "text": list(
-                            map(
-                                tokenize,
-                                _fetch_fulltext_with_fulltext_hash(
-                                    database_cursor, fulltext_metadata.hash
-                                ),
-                            )
-                        ),
-                        "timestamp": fulltext_metadata.timestamp,
-                        "uri": fulltext_metadata.uri,
-                    }
-                    if not args.dhlab_id_status.is_disabled:
-                        fulltext_for_domain_dict[fulltext_metadata.hash][
-                            "dhlab-id"
-                        ] = dhlabid_value
-                        dhlabid_value += 1
+                    all_tokens_list = []
+
+                    for full_text in _fetch_fulltext_with_fulltext_hash(
+                        database_cursor=database_cursor,
+                        fulltext_hash=fulltext_metadata.hash,
+                    ):
+                        token_result_collection = _parse_tokens(full_text)
+                        for token_result in token_result_collection:
+                            tokens_dict = {
+                                "token": token_result.token,
+                                "sequence-number": token_result.sequence_number,
+                                "paragraph-number": token_result.paragraph_number,
+                                "timestamp": fulltext_metadata.timestamp,
+                                "uri": fulltext_metadata.uri,
+                            }
+                            if not args.dhlab_id_status.is_disabled:
+                                tokens_dict["dhlab-id"] = dhlabid_value
+                            all_tokens_list.append(tokens_dict)
+                        if not args.dhlab_id_status.is_disabled:
+                            dhlabid_value += 1
+                    all_text_dict[fulltext_metadata.hash] = all_tokens_list
 
                 fulltext_dict = {
                     title_key: items[title_key],
                     domain_key: items[domain_key],
                     responsible_editor_key: items[responsible_editor_key],
                     geodata_key: items[geodata_key],
-                    "text-entry": fulltext_for_domain_dict,
+                    "texts": all_text_dict,
                 }
 
                 with open(
