@@ -1,14 +1,21 @@
 # corpus-build
 
-This is a small repository to build text corpora from a database of fulltext entries. The objective is to provide content from the Norwegian Web Archive for Natural Language Processing (NLP) and the [DH-lab at the National Library of Norway](https://www.nb.no/dh-lab/).
+This is a small repository to build text corpora from a database of fulltext entries. The objective is to provide content from the Norwegian Web Archive for Natural Language Processing (NLP) through the [DH-lab at the National Library of Norway](https://www.nb.no/dh-lab/).
 
-In order to make new corpus from a database of material from the web archive, this repo contains functionality to extract full text from specific domains that have declared a responsible editor:
+**corpus-build** is part of a bigger pipeline for building linguistic corpora from WebARChive (WARC) files.
+
+![A flow chart illustrating the process from WARC-records to tokenised corpora.](./image/warc2corpus.svg)
+
+## Prerequisites
+
+In order to make a new corpus from a database of material from the web archive, this repo contains functionality to extract full text from specific news websites that have declared a responsible editor:
 - `responsible-editor-filter.yaml` contains the domains that should be filtered upon.
 
 A postgreSQL database is required with the following tables:
 - `warcinfo` - contains metadata about the full text entry
 - `fulltext` - contains the actual text
-Both of these tables are linked together using the field `fulltext_hash`
+
+Both tables are linked together using the field `fulltext_hash`
 
 # Local setup
 
