@@ -2,3 +2,4 @@ psycopg2-binary # Should not be used in production, see https://www.psycopg.org/
 pyyaml
 tqdm
 nb_tokenizer
+ruamel.yaml
