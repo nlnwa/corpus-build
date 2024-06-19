@@ -137,12 +137,6 @@ publications:
   geodata:
     place: Bodø
     county: Nordland
-- domain: ryfylke.net
-  have-responsible-editor: true
-  title: Avisa Ryfylke
-  geodata:
-    place: Sauda
-    county: Rogaland
 - domain: avisa-st.no
   have-responsible-editor: true
   title: Avisa Sør-Trøndelag
@@ -197,12 +191,6 @@ publications:
   geodata:
     place: Sortland
     county: Nordland
-- domain: bladet.no
-  have-responsible-editor: true
-  title: Bladet.no
-  geodata:
-    place: Stjørdal
-    county: Trøndelag
 - domain: bodonu.no
   have-responsible-editor: true
   title: Bodø Nu
@@ -221,12 +209,6 @@ publications:
   geodata:
     place: Brønnøysund
     county: Nordland
-- domain: budstikka.no
-  have-responsible-editor: true
-  title: Budstikka
-  geodata:
-    place: Søgne
-    county: Agder
 - domain: byavisadrammen.no
   have-responsible-editor: true
   title: Byavisa Drammen
