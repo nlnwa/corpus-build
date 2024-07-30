@@ -103,7 +103,7 @@ publications:
     county: Agder
 - domain: budstikka.no
   have-responsible-editor: true
-  title: Asker og Bærums Budstikke
+  title: Asker og Bærums Budstikke (Budstikka)
   geodata:
     place: Sandvika
     county: Akershus
@@ -169,7 +169,7 @@ publications:
     county: Agder
 - domain: bladet.no
   have-responsible-editor: true
-  title: Bladet
+  title: Bladet (Stjørdalens blad)
   geodata:
     place: Stjørdal
     county: Trøndelag
@@ -209,6 +209,15 @@ publications:
   geodata:
     place: Brønnøysund
     county: Nordland
+<<<<<<< Updated upstream
+=======
+- domain: budstikka.no
+  have-responsible-editor: true
+  title: Søgne og Songdalen Budstikke (Budstikka)
+  geodata:
+    place: Søgne
+    county: Agder
+>>>>>>> Stashed changes
 - domain: byavisadrammen.no
   have-responsible-editor: true
   title: Byavisa Drammen
@@ -1241,12 +1250,6 @@ publications:
   geodata:
     place: Tromsø
     county: Troms
-- domain: ryfylke.net
-  have-responsible-editor: true
-  title: Ryfylke
-  geodata:
-    place: Sauda
-    county: Rogaland
 - domain: rorosnytt.no
   have-responsible-editor: true
   title: Rørosnytt
