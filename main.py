@@ -10,6 +10,11 @@ from psycopg2 import connect
 from psycopg2.extensions import cursor
 from tqdm import tqdm
 from yaml import SafeLoader, dump, load
+import jsonlines
+import sqlite3
+import os
+import sys
+import uuid
 
 
 @dataclass
@@ -29,6 +34,8 @@ class _DatabaseArgs:
 
 @dataclass
 class _FulltextMetadata:
+    record_id: str
+    warcpath: Path
     hash: str
     uri: str
     timestamp: str
@@ -111,6 +118,35 @@ def _connect_to_database(
     database_cursor.close()
     connection.close()
 
+def _create_local_db(dbname):
+    if os.path.exists(dbname):
+        print("ERROR: Database already exists. Delete and re-run.")
+        sys.exit(1)
+    with sqlite3.connect(dbname) as dbcon:
+        cur = dbcon.cursor()
+        cur.execute("CREATE TABLE urns (urn INTEGER PRIMARY KEY, urntext text);")
+        cur.execute("CREATE TABLE ft (urn int, word varchar, seq int, para int, page int, ordinal int);")
+        cur.execute("CREATE TABLE metadata (dhlabid int, hash text, title text, domain text, responsible_editor bool, place text, county text, record_id text, warcpath text, timestamp text, uri text);")
+
+def _write_to_local_database(dbname, token_tuples, metadata_tuple):
+    with sqlite3.connect(dbname) as dbcon:
+        cur = dbcon.cursor()
+        cur.execute("INSERT INTO metadata VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", (metadata_tuple))
+        dbcon.commit()
+        cur.execute("INSERT INTO urns VALUES (?, ?);", (metadata_tuple[0], f"{metadata_tuple[8]}#{metadata_tuple[7]}"))
+        dbcon.commit()
+        cur.executemany("INSERT INTO ft(urn, word, seq, para) VALUES(?, ?, ?, ?);", (token_tuples))
+        dbcon.commit()
+
+def _rename_db(dbname):
+    # first we get the min and max_id
+    with sqlite3.connect(dbname) as dbcon:
+        cur = dbcon.cursor()
+        cur.execute("SELECT min(urn) as urn_min, max(urn) as urn_max FROM urns;")
+        min_max = cur.fetchone()
+
+    new_dbname = f"corpus/alto_{min_max[0]}_{min_max[1]}.db"
+    os.rename(dbname, new_dbname)
 
 def _remove_duplicates_and_empty_strings(results: list[tuple[str, ...]]) -> list[str]:
     filtered_results = []
@@ -138,21 +174,21 @@ def _fetch_fulltext_hash_and_metadata(
 ) -> list[_FulltextMetadata]:
     warcinfo_table = "warcinfo"
     database_cursor.execute(
-        f"SELECT fulltext_hash, target_uri, date FROM {warcinfo_table} WHERE domain = '{domain}'"
+        f"SELECT DISTINCT ON (fulltext_hash, target_uri) record_id, wf.warc_file_name AS warcpath, fulltext_hash, target_uri, date FROM {warcinfo_table} w JOIN warc_files wf ON wf.warc_file_id = w.warc_file_id WHERE domain = '{domain}' AND fulltext_hash != 'da39a3ee5e6b4b0d3255bfef95601890afd80709' ORDER BY fulltext_hash, target_uri, date ASC;"
     )
     all_results = database_cursor.fetchall()
     filtered_results = []
     for result in all_results:
-        if len(result) != 3:
+        if len(result) != 5:
             raise ValueError(
-                f"Unexpected number of results, expected 3, got {len(result)}"
+                f"Unexpected number of results, expected 5, got {len(result)}"
             )
         if result[0] is not None:
             if result[0] not in [metadata.hash for metadata in filtered_results]:
-                parsed_date = datetime.fromisoformat(result[2].replace("Z", "+00:00"))
+                parsed_date = datetime.fromisoformat(result[4].replace("Z", "+00:00"))
                 formatted_date = parsed_date.strftime("%Y%m%d")
                 res = _FulltextMetadata(
-                    hash=result[0], uri=result[1], timestamp=formatted_date
+                    record_id=result[0], warcpath=result[1], hash=result[2], uri=result[3], timestamp=formatted_date
                 )
                 filtered_results.append(res)
     return filtered_results
@@ -184,9 +220,17 @@ def _main() -> None:
     responsible_editor_key = "have-responsible-editor"
     domain_key = "domain"
     title_key = "title"
+    hash_key = 'hash'
     geodata_key = "geodata"
     if not args.dhlab_id_status.is_disabled:
         dhlabid_value = args.dhlab_id_status.starting_value
+    else:
+        dhlabid_value = 1
+
+    # initiate database
+    dbid = str(uuid.uuid4())
+    dbname = f"corpus/{dbid}.db"
+    _create_local_db(dbname)
 
     with _connect_to_database(
         hostname=args.database.hostname,
@@ -198,58 +242,68 @@ def _main() -> None:
         with open(args.filter_yaml_file, "r", encoding="utf-8") as file_pointer:
             filter_dict = load(file_pointer, Loader=SafeLoader)
             for items in tqdm(filter_dict["publications"]):
-                print(f"Processing domain {items[domain_key]}", flush=True)
-                if not items[responsible_editor_key]:
-                    raise ValueError("No responsible editor")
-                fulltext_metadata_collection = _fetch_fulltext_hash_and_metadata(
-                    database_cursor, items[domain_key]
-                )
-
-                print(
-                    f"Found {len(fulltext_metadata_collection)} fulltext hashes",
-                    flush=True,
-                )
-
-                all_text_dict = {}
-
-                for fulltext_metadata in tqdm(fulltext_metadata_collection):
-                    all_tokens_list = []
-
-                    for full_text in _fetch_fulltext_with_fulltext_hash(
-                        database_cursor=database_cursor,
-                        fulltext_hash=fulltext_metadata.hash,
-                    ):
-                        token_result_collection = _parse_tokens(full_text)
-                        for token_result in token_result_collection:
-                            tokens_dict = {
-                                "token": token_result.token,
-                                "sequence-number": token_result.sequence_number,
-                                "paragraph-number": token_result.paragraph_number,
-                                "timestamp": fulltext_metadata.timestamp,
-                                "uri": fulltext_metadata.uri,
-                            }
-                            if not args.dhlab_id_status.is_disabled:
-                                tokens_dict["dhlab-id"] = dhlabid_value
-                            all_tokens_list.append(tokens_dict)
-                        if not args.dhlab_id_status.is_disabled:
-                            dhlabid_value += 1
-                    all_text_dict[fulltext_metadata.hash] = all_tokens_list
-
-                fulltext_dict = {
-                    title_key: items[title_key],
-                    domain_key: items[domain_key],
-                    responsible_editor_key: items[responsible_editor_key],
-                    geodata_key: items[geodata_key],
-                    "texts": all_text_dict,
-                }
-
-                with open(
-                    args.output_dir / f"{items[domain_key]}.yaml", "w", encoding="utf-8"
-                ) as file_pointer:
-                    dump(
-                        fulltext_dict, file_pointer, allow_unicode=True, sort_keys=False
+                try:
+                    print(f"Processing domain {items[domain_key]}", flush=True)
+                    if not items[responsible_editor_key]:
+                        raise ValueError("No responsible editor")
+                    fulltext_metadata_collection = _fetch_fulltext_hash_and_metadata(
+                        database_cursor, items[domain_key]
                     )
 
+                    print(
+                        f"Found {len(fulltext_metadata_collection)} documents",
+                        flush=True,
+                    )
+
+                    for fulltext_metadata in tqdm(fulltext_metadata_collection):
+                        all_tokens_list = []
+
+                        for full_text in _fetch_fulltext_with_fulltext_hash(
+                            database_cursor=database_cursor,
+                            fulltext_hash=fulltext_metadata.hash,
+                        ):
+
+                            warc_data =  {
+                                    "record_id": fulltext_metadata.record_id,
+                                    "warcpath": fulltext_metadata.warcpath,
+                                    "timestamp": fulltext_metadata.timestamp,
+                                    "uri": fulltext_metadata.uri,
+                                    "full_text": full_text
+                                }
+
+                            fulltext_dict = {
+                                'dhlabid': dhlabid_value,
+                                hash_key: fulltext_metadata.hash,
+                                title_key: items[title_key],
+                                domain_key: items[domain_key],
+                                responsible_editor_key: items[responsible_editor_key],
+                                'place': items[geodata_key]['place'],
+                                'county': items[geodata_key]['county']
+                            }
+
+                            fulltext_dict.update(warc_data)
+
+                            metadata_tuple = tuple(fulltext_dict.values())[:-1]
+
+                            with jsonlines.open(args.output_dir / f"{items[domain_key]}.yaml", "a") as writer:
+                                writer.write(fulltext_dict)
+
+                            # tokenize and output to sqlite3
+                            token_result_collection = _parse_tokens(full_text)
+
+                            token_tuples = []
+
+                            for token_result in token_result_collection:
+                                token_tuples.append((fulltext_dict["dhlabid"], token_result.token, token_result.sequence_number, token_result.paragraph_number))
+
+                            _write_to_local_database(dbname, token_tuples, metadata_tuple)
+
+                            dhlabid_value += 1
+                except Exception as e:
+                    print(items[domain_key], "failed with", e)
+                    continue
+
+    _rename_db(dbname)
 
 if __name__ == "__main__":
     _main()
