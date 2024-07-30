@@ -138,14 +138,14 @@ def _write_to_local_database(dbname, token_tuples, metadata_tuple):
         cur.executemany("INSERT INTO ft(urn, word, seq, para) VALUES(?, ?, ?, ?);", (token_tuples))
         dbcon.commit()
 
-def _rename_db(dbname):
+def _rename_db(dbname, output_dir):
     # first we get the min and max_id
     with sqlite3.connect(dbname) as dbcon:
         cur = dbcon.cursor()
         cur.execute("SELECT min(urn) as urn_min, max(urn) as urn_max FROM urns;")
         min_max = cur.fetchone()
 
-    new_dbname = f"corpus/alto_{min_max[0]}_{min_max[1]}.db"
+    new_dbname = f"{output_dir}/alto_{min_max[0]}_{min_max[1]}.db"
     os.rename(dbname, new_dbname)
 
 def _remove_duplicates_and_empty_strings(results: list[tuple[str, ...]]) -> list[str]:
@@ -229,7 +229,7 @@ def _main() -> None:
 
     # initiate database
     dbid = str(uuid.uuid4())
-    dbname = f"corpus/{dbid}.db"
+    dbname = f"{args.output_dir}/{dbid}.db"
     _create_local_db(dbname)
 
     with _connect_to_database(
@@ -303,7 +303,7 @@ def _main() -> None:
                     print(items[domain_key], "failed with", e)
                     continue
 
-    _rename_db(dbname)
+    _rename_db(dbname, args.output_dir)
 
 if __name__ == "__main__":
     _main()
