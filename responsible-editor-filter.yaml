@@ -209,15 +209,6 @@ publications:
   geodata:
     place: Brønnøysund
     county: Nordland
-<<<<<<< Updated upstream
-=======
-- domain: budstikka.no
-  have-responsible-editor: true
-  title: Søgne og Songdalen Budstikke (Budstikka)
-  geodata:
-    place: Søgne
-    county: Agder
->>>>>>> Stashed changes
 - domain: byavisadrammen.no
   have-responsible-editor: true
   title: Byavisa Drammen
