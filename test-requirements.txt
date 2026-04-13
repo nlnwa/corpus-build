@@ -4,8 +4,16 @@
 #
 #    pip-compile test-requirements.in
 #
+attrs==23.2.0
+    # via
+    #   -r requirements.txt
+    #   jsonlines
 iniconfig==2.0.0
     # via pytest
+joblib==1.4.2
+    # via -r requirements.txt
+jsonlines==4.0.0
+    # via -r requirements.txt
 nb-tokenizer==0.1.0
     # via -r requirements.txt
 packaging==24.0
@@ -14,7 +22,9 @@ pluggy==1.5.0
     # via pytest
 psycopg2-binary==2.9.9
     # via -r requirements.txt
-pytest==8.2.0
+pygments==2.20.0
+    # via pytest
+pytest==9.0.3
     # via -r test-requirements.in
 pyyaml==6.0.1
     # via -r requirements.txt
